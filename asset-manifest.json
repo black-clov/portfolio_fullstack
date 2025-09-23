@@ -1,27 +1,21 @@
 {
   "files": {
     "main.css": "/mouhsine_elmoudir/static/css/main.f5f4301c.css",
-    "main.js": "/mouhsine_elmoudir/static/js/main.5a49dbf5.js",
+    "main.js": "/mouhsine_elmoudir/static/js/main.e57af6cf.js",
     "static/js/453.5d79306b.chunk.js": "/mouhsine_elmoudir/static/js/453.5d79306b.chunk.js",
-    "static/media/P2.png": "/mouhsine_elmoudir/static/media/P2.a299475734ef8f9c0e5c.png",
-    "static/media/P3.png": "/mouhsine_elmoudir/static/media/P3.42222fe32e4129d7d9b1.png",
-    "static/media/P1.png": "/mouhsine_elmoudir/static/media/P1.4c8688149c63e149cc3d.png",
-    "static/media/emotion.png": "/mouhsine_elmoudir/static/media/emotion.eabfc16e7a146ab15778.png",
     "static/media/CV_ELMOUDIR_MOUHSINE_WEBSITE.pdf": "/mouhsine_elmoudir/static/media/CV_ELMOUDIR_MOUHSINE_WEBSITE.a8c3ef32a4a0b8b18e3d.pdf",
-    "static/media/P4.png": "/mouhsine_elmoudir/static/media/P4.a95a6bac41c85981b1d5.png",
     "static/media/home-main.svg": "/mouhsine_elmoudir/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
     "static/media/about.png": "/mouhsine_elmoudir/static/media/about.aee0f771fbfc1e7b8fa8.png",
-    "static/media/P5.jpg": "/mouhsine_elmoudir/static/media/P5.d40b7f2f709123f9b9bc.jpg",
     "static/media/home-bg.jpg": "/mouhsine_elmoudir/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
     "static/media/avatar.svg": "/mouhsine_elmoudir/static/media/avatar.5852f40fbb38aa284829fa3fb7722225.svg",
     "index.html": "/mouhsine_elmoudir/index.html",
     "static/media/pre.svg": "/mouhsine_elmoudir/static/media/pre.d4812f51c8c80976eaab.svg",
     "main.f5f4301c.css.map": "/mouhsine_elmoudir/static/css/main.f5f4301c.css.map",
-    "main.5a49dbf5.js.map": "/mouhsine_elmoudir/static/js/main.5a49dbf5.js.map",
+    "main.e57af6cf.js.map": "/mouhsine_elmoudir/static/js/main.e57af6cf.js.map",
     "453.5d79306b.chunk.js.map": "/mouhsine_elmoudir/static/js/453.5d79306b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f5f4301c.css",
-    "static/js/main.5a49dbf5.js"
+    "static/js/main.e57af6cf.js"
   ]
 }
