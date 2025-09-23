@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">ELMOUDIR Mouhsine </span>
             from <span className="purple"> Casablanca, Morocco.</span>
             <br />
-            I am currently a graduated Master degree in Immersive Technologies - XR & Artificial Intelligence
+            I am currently a graduated Master degree in Immersive Technologies & Artificial Intelligence
             <br />
             I have Bachelor degree in Software Engineering. 
             <br />

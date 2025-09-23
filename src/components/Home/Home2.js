@@ -24,7 +24,7 @@ function Home2() {
               <br />
               I am fluent in core technologies such as
               <i>
-                <b className="purple"> Python (Pandas, NumPy, Scikit-learn, PySpark), SQL, and R. </b>
+                <b className="purple"> Python (Pandas, NumPy, Scikit-learn, PySpark), SQL </b>
               </i>
               <br />
               <br />
