@@ -1,21 +1,27 @@
 {
   "files": {
     "main.css": "/portfolio_fullstack/static/css/main.10ed5e4e.css",
-    "main.js": "/portfolio_fullstack/static/js/main.aec10f2d.js",
+    "main.js": "/portfolio_fullstack/static/js/main.5a0b4c55.js",
     "static/js/453.5d79306b.chunk.js": "/portfolio_fullstack/static/js/453.5d79306b.chunk.js",
     "static/media/CV_ELMOUDIR_MOUHSINE_WEBSITE.pdf": "/portfolio_fullstack/static/media/CV_ELMOUDIR_MOUHSINE_WEBSITE.a8c3ef32a4a0b8b18e3d.pdf",
     "static/media/home-main.svg": "/portfolio_fullstack/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
     "static/media/about.png": "/portfolio_fullstack/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/home-bg.jpg": "/portfolio_fullstack/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
     "static/media/avatar.svg": "/portfolio_fullstack/static/media/avatar.7f806e40d46fc76fbc3c4a3d71349951.svg",
-    "index.html": "/portfolio_fullstack/index.html",
+    "static/media/fashion.svg": "/portfolio_fullstack/static/media/fashion.6d6a37b22957cd2cd1166695c83788cf.svg",
+    "static/media/food.svg": "/portfolio_fullstack/static/media/food.b0beabf561008b909d2b10d37d9f6095.svg",
+    "static/media/electronics.svg": "/portfolio_fullstack/static/media/electronics.19e56cba3fe325dbfc3c29b7ff4c3330.svg",
+    "static/media/furniture.svg": "/portfolio_fullstack/static/media/furniture.23e996c5d4a7bf1c6e57b45b22ac46f4.svg",
+    "static/media/grocery.svg": "/portfolio_fullstack/static/media/grocery.04617b35d69f68ca71582621d785ce67.svg",
+    "static/media/beauty.svg": "/portfolio_fullstack/static/media/beauty.7ae77d38331f12d426a278b9c7b223a4.svg",
     "static/media/pre.svg": "/portfolio_fullstack/static/media/pre.4410c5baaa673cc131da.svg",
+    "index.html": "/portfolio_fullstack/index.html",
     "main.10ed5e4e.css.map": "/portfolio_fullstack/static/css/main.10ed5e4e.css.map",
-    "main.aec10f2d.js.map": "/portfolio_fullstack/static/js/main.aec10f2d.js.map",
+    "main.5a0b4c55.js.map": "/portfolio_fullstack/static/js/main.5a0b4c55.js.map",
     "453.5d79306b.chunk.js.map": "/portfolio_fullstack/static/js/453.5d79306b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.10ed5e4e.css",
-    "static/js/main.aec10f2d.js"
+    "static/js/main.5a0b4c55.js"
   ]
 }
