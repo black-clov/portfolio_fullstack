@@ -2,14 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-
-// Images from internet (Unsplash, Medium, etc.)
-const dataPipelineImg = "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*U1MSSPFcAckU4i_SFsMghw.png";
-const dashboardImg = "https://cdn.analyticsvidhya.com/wp-content/uploads/2020/05/tableau-vs-power-bi.png";
-const sentimentImg = "https://editor.analyticsvidhya.com/uploads/91246sentiment%20analysis.png";
-const bigDataImg = "https://miro.medium.com/v2/resize:fit:720/format:webp/1*BaxD1-QE7yzqqmHIjhX8Cg.png";
-const recommendationImg = "https://miro.medium.com/v2/resize:fit:720/format:webp/1*7l9O6-HJpZo2PdnPbn9sPQ.png";
-const fraudImg = "https://miro.medium.com/v2/resize:fit:720/format:webp/1*dJX_Q5p6lV4kE8VnVY8f7Q.png";
+import fashionImg from "../../Assets/Projects/Ecommerce/fashion.svg";
+import foodImg from "../../Assets/Projects/Ecommerce/food.svg";
+import electronicsImg from "../../Assets/Projects/Ecommerce/electronics.svg";
+import beautyImg from "../../Assets/Projects/Ecommerce/beauty.svg";
+import groceryImg from "../../Assets/Projects/Ecommerce/grocery.svg";
+import furnitureImg from "../../Assets/Projects/Ecommerce/furniture.svg";
 
 function Projects() {
   return (
@@ -17,75 +15,77 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Data Projects </strong>
+          Mes <strong className="purple">Projets E-commerce</strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are some Data Science, Data Engineering, and Analytics projects I’ve worked on recently.
+          Voici quelques plateformes e-commerce développées avec la stack MERN (MongoDB, Express, React, Node.js) pour différents secteurs d'activité.
+          <br />
+          <em>Exemples de réalisations à titre illustratif — captures d'écran à venir.</em>
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
-          {/* Data Pipeline */}
+          {/* Mode & Vêtements */}
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={dataPipelineImg}
+              imgPath={fashionImg}
               isBlog={false}
-              title="End-to-End Data Pipeline"
-              description="Designed and implemented an automated data pipeline using Apache Airflow, Spark, and AWS S3 for ETL (Extract, Transform, Load) workflows to process millions of records daily."
+              title="Boutique de Mode en Ligne"
+              description="Développement d'une boutique de vêtements avec React et Node.js : catalogue filtrable, panier d'achat, paiement sécurisé via Stripe et back-office de gestion des stocks."
               ghLink="https://github.com/black-clov"
             />
           </Col>
 
-          {/* Dashboard */}
+          {/* Restauration & Livraison */}
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={dashboardImg}
+              imgPath={foodImg}
               isBlog={false}
-              title="Business Intelligence Dashboard"
-              description="Created an interactive sales & KPI dashboard using Power BI and Tableau. Connected multiple SQL and NoSQL databases to visualize real-time business performance metrics."
+              title="Plateforme de Commande de Repas"
+              description="Conception d'une plateforme de commande et de livraison de repas avec React, Express et MongoDB : suivi de commande en temps réel, géolocalisation et paiement en ligne."
               ghLink="https://github.com/black-clov"
             />
           </Col>
 
-          {/* Sentiment Analysis */}
+          {/* Électronique */}
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={sentimentImg}
+              imgPath={electronicsImg}
               isBlog={false}
-              title="Sentiment Analysis on Social Media"
-              description="Applied NLP techniques with Python (NLTK, Scikit-learn) to analyze Twitter sentiment. Trained a model achieving 85% accuracy in predicting positive/negative tweets."
+              title="Marketplace Électronique"
+              description="Réalisation d'une marketplace multi-vendeurs pour produits électroniques avec authentification JWT, comparateur de produits, avis clients et paiement via PayPal/Stripe."
               ghLink="https://github.com/black-clov"
             />
           </Col>
 
-          {/* Big Data Processing */}
+          {/* Beauté & Cosmétiques */}
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bigDataImg}
+              imgPath={beautyImg}
               isBlog={false}
-              title="Big Data Analytics with Spark"
-              description="Processed and analyzed 100+ GB of log data using PySpark on Hadoop cluster. Built machine learning models for anomaly detection and real-time insights."
+              title="Boutique de Beauté & Cosmétiques"
+              description="Développement d'un site e-commerce de cosmétiques avec React/Node.js : recommandations personnalisées, gestion des promotions et tableau de bord d'administration."
               ghLink="https://github.com/black-clov"
             />
           </Col>
 
-          {/* Recommendation System */}
+          {/* Épicerie & Supermarché */}
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={recommendationImg}
+              imgPath={groceryImg}
               isBlog={false}
-              title="Recommendation System"
-              description="Built a movie recommendation system using collaborative filtering and content-based methods. Deployed with Flask and integrated into a web application."
+              title="Supermarché en Ligne"
+              description="Création d'une application de supermarché en ligne avec React et MongoDB : créneaux de livraison, paniers récurrents et notifications de suivi de commande."
               ghLink="https://github.com/black-clov"
             />
           </Col>
 
-          {/* Fraud Detection */}
+          {/* Mobilier & Décoration */}
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={fraudImg}
+              imgPath={furnitureImg}
               isBlog={false}
-              title="Fraud Detection Model"
-              description="Developed a fraud detection system using machine learning (Random Forest, XGBoost). Achieved high precision/recall on imbalanced credit card transactions dataset."
+              title="Boutique de Mobilier & Décoration"
+              description="Développement d'une boutique de mobilier et décoration avec fiches produits détaillées, simulateur de devis et paiement en plusieurs fois via Stripe."
               ghLink="https://github.com/black-clov"
             />
           </Col>

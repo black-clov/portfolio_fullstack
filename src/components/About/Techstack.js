@@ -1,64 +1,57 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { DiPython, DiGit } from "react-icons/di";
+import { DiGit } from "react-icons/di";
 import {
-  SiPandas,
-  SiNumpy,
-  SiScikitlearn,
-  SiTensorflow,
-  SiPytorch,
-  SiJupyter,
-  SiApachehadoop,
-  SiApacheairflow,
-  SiApachespark,
-  SiPostgresql,
-  SiMysql,
+  SiHtml5,
+  SiCss3,
+  SiJavascript,
+  SiTypescript,
+  SiReact,
+  SiRedux,
+  SiTailwindcss,
+  SiBootstrap,
+  SiNodedotjs,
+  SiExpress,
+  SiGraphql,
   SiMongodb,
-  SiTableau,
-  SiPowerbi,
+  SiMysql,
+  SiPostgresql,
+  SiStripe,
+  SiPaypal,
+  SiJsonwebtokens,
   SiDocker,
-  SiKubernetes,
-  SiGooglecloud,
-  SiMicrosoftazure,
-  SiAmazonaws,
 } from "react-icons/si";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      {/* Core Languages */}
-      <Col xs={4} md={2} className="tech-icons"><DiPython /></Col>
-      <Col xs={4} md={2} className="tech-icons"><SiNumpy /></Col>
-      <Col xs={4} md={2} className="tech-icons"><SiPandas /></Col>
+      {/* Front-end */}
+      <Col xs={4} md={2} className="tech-icons"><SiHtml5 /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiCss3 /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiJavascript /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiTypescript /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiReact /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiRedux /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiTailwindcss /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiBootstrap /></Col>
 
-      {/* Machine Learning & AI */}
-      <Col xs={4} md={2} className="tech-icons"><SiScikitlearn /></Col>
-      <Col xs={4} md={2} className="tech-icons"><SiTensorflow /></Col>
-      <Col xs={4} md={2} className="tech-icons"><SiPytorch /></Col>
-      <Col xs={4} md={2} className="tech-icons"><SiJupyter /></Col>
+      {/* Back-end */}
+      <Col xs={4} md={2} className="tech-icons"><SiNodedotjs /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiExpress /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiGraphql /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiJsonwebtokens /></Col>
 
-      {/* Big Data & Pipelines */}
-      <Col xs={4} md={2} className="tech-icons"><SiApachespark /></Col>
-      <Col xs={4} md={2} className="tech-icons"><SiApachehadoop /></Col>
-      <Col xs={4} md={2} className="tech-icons"><SiApacheairflow /></Col>
-
-      {/* Databases */}
-      <Col xs={4} md={2} className="tech-icons"><SiPostgresql /></Col>
-      <Col xs={4} md={2} className="tech-icons"><SiMysql /></Col>
+      {/* Bases de données */}
       <Col xs={4} md={2} className="tech-icons"><SiMongodb /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiMysql /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiPostgresql /></Col>
 
-      {/* BI & Visualization */}
-      <Col xs={4} md={2} className="tech-icons"><SiPowerbi /></Col>
-      <Col xs={4} md={2} className="tech-icons"><SiTableau /></Col>
+      {/* Paiement en ligne */}
+      <Col xs={4} md={2} className="tech-icons"><SiStripe /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiPaypal /></Col>
 
-      {/* DevOps / Cloud */}
+      {/* DevOps & Versioning */}
       <Col xs={4} md={2} className="tech-icons"><SiDocker /></Col>
-      <Col xs={4} md={2} className="tech-icons"><SiKubernetes /></Col>
-      <Col xs={4} md={2} className="tech-icons"><SiAmazonaws /></Col>
-      <Col xs={4} md={2} className="tech-icons"><SiGooglecloud /></Col>
-      <Col xs={4} md={2} className="tech-icons"><SiMicrosoftazure /></Col>
-
-      {/* Version Control */}
       <Col xs={4} md={2} className="tech-icons"><DiGit /></Col>
     </Row>
   );

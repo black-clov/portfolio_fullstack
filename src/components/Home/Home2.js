@@ -4,10 +4,9 @@ import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaTiktok } from "react-icons/fa";
 
 function Home2() {
   return (
@@ -16,37 +15,41 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              LAISSEZ-MOI <span className="purple"> ME PRÉSENTER </span>
             </h1>
             <p className="home-about-body">
-              My passion lies in turning data into actionable insights and intelligent solutions.
+              Ma passion est de concevoir des applications web et des plateformes e-commerce sur mesure pour des secteurs d'activité variés.
               <br />
               <br />
-              I am fluent in core technologies such as
+              Je maîtrise la stack
               <i>
-                <b className="purple"> Python (Pandas, NumPy, Scikit-learn, PySpark), SQL </b>
+                <b className="purple"> MERN : MongoDB, Express, React et Node.js, </b>
+              </i>
+              ainsi que
+              <i>
+                <b className="purple"> JavaScript / TypeScript, HTML5 et CSS3. </b>
               </i>
               <br />
               <br />
-              My main fields of interest are
+              Mes principaux domaines d'intérêt sont
               <i>
-                <b className="purple"> Data Science, Machine Learning, and Business Intelligence, </b>
-                with a strong focus on{" "}
-                <b className="purple"> predictive modeling, data visualization, and decision support systems. </b>
+                <b className="purple"> le développement de sites web et de logiciels e-commerce, </b>
+                avec un fort accent sur{" "}
+                <b className="purple"> le paiement en ligne, la gestion des commandes et l'expérience utilisateur. </b>
               </i>
               <br />
               <br />
-              I enjoy building robust data pipelines, interactive dashboards, and analytical solutions using{" "}
-              <b className="purple"> Power BI, Tableau, and Python APIs, </b>
-              while also exploring{" "}
-              <b className="purple"> Big Data frameworks like PySpark. </b>
+              J'aime concevoir des boutiques en ligne complètes, des API robustes et des back-offices d'administration avec{" "}
+              <b className="purple"> React, Node.js/Express et des bases de données MongoDB, MySQL ou PostgreSQL, </b>
+              tout en intégrant{" "}
+              <b className="purple"> des solutions de paiement comme Stripe et PayPal. </b>
               <br />
               <br />
-              Whenever possible, I apply my expertise to real-world projects that combine
+              J'ai eu l'occasion de développer des projets pour des secteurs variés tels que
               <i>
-                <b className="purple"> data engineering, advanced analytics, and AI-driven insights </b>
+                <b className="purple"> la mode, l'alimentation, l'électronique, la beauté et la décoration, </b>
               </i>
-              to solve complex business challenges.
+              en adaptant chaque solution aux besoins spécifiques du client.
             </p>
 
           </Col>
@@ -58,9 +61,9 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
+            <h1>RETROUVEZ-MOI SUR</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              N'hésitez pas à <span className="purple">me contacter</span>
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
@@ -80,7 +83,7 @@ function Home2() {
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <AiOutlineTwitter />
+                  <FaTiktok />
                 </a>
               </li>
               <li className="social-icons">
