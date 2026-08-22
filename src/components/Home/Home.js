@@ -1,9 +1,11 @@
-import React from "react";
+import React, { Suspense, lazy } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+
+const Scene3D = lazy(() => import(/* webpackChunkName: "scene3d" */ "./Scene3D"));
 
 function Home() {
   return (
@@ -31,12 +33,29 @@ function Home() {
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
-              <img
-                src={homeLogo}
-                alt="home pic"
-                className="img-fluid"
-                style={{ maxHeight: "450px" }}
-              />
+              <div style={{ width: "100%", height: "450px" }}>
+                <Suspense
+                  fallback={
+                    <img
+                      src={homeLogo}
+                      alt="home pic"
+                      className="img-fluid"
+                      style={{ maxHeight: "450px" }}
+                    />
+                  }
+                >
+                  <Scene3D
+                    fallback={
+                      <img
+                        src={homeLogo}
+                        alt="home pic"
+                        className="img-fluid"
+                        style={{ maxHeight: "450px" }}
+                      />
+                    }
+                  />
+                </Suspense>
+              </div>
             </Col>
           </Row>
         </Container>
