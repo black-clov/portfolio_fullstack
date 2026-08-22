@@ -1,8 +1,10 @@
 {
   "files": {
     "main.css": "/portfolio_fullstack/static/css/main.10ed5e4e.css",
-    "main.js": "/portfolio_fullstack/static/js/main.6e09a391.js",
+    "main.js": "/portfolio_fullstack/static/js/main.1c53e6e2.js",
+    "scene3d.js": "/portfolio_fullstack/static/js/scene3d.a730d2ef.chunk.js",
     "static/js/453.5d79306b.chunk.js": "/portfolio_fullstack/static/js/453.5d79306b.chunk.js",
+    "static/js/37.d428d2a2.chunk.js": "/portfolio_fullstack/static/js/37.d428d2a2.chunk.js",
     "static/media/home-main.svg": "/portfolio_fullstack/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
     "static/media/about.png": "/portfolio_fullstack/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/CV_ELMOUDIR_MOUHSINE_WEBSITE.pdf": "/portfolio_fullstack/static/media/CV_ELMOUDIR_MOUHSINE_WEBSITE.4e44515536fef6df817c.pdf",
@@ -17,11 +19,13 @@
     "static/media/pre.svg": "/portfolio_fullstack/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/portfolio_fullstack/index.html",
     "main.10ed5e4e.css.map": "/portfolio_fullstack/static/css/main.10ed5e4e.css.map",
-    "main.6e09a391.js.map": "/portfolio_fullstack/static/js/main.6e09a391.js.map",
-    "453.5d79306b.chunk.js.map": "/portfolio_fullstack/static/js/453.5d79306b.chunk.js.map"
+    "main.1c53e6e2.js.map": "/portfolio_fullstack/static/js/main.1c53e6e2.js.map",
+    "scene3d.a730d2ef.chunk.js.map": "/portfolio_fullstack/static/js/scene3d.a730d2ef.chunk.js.map",
+    "453.5d79306b.chunk.js.map": "/portfolio_fullstack/static/js/453.5d79306b.chunk.js.map",
+    "37.d428d2a2.chunk.js.map": "/portfolio_fullstack/static/js/37.d428d2a2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.10ed5e4e.css",
-    "static/js/main.6e09a391.js"
+    "static/js/main.1c53e6e2.js"
   ]
 }
